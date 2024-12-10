@@ -34,10 +34,10 @@ sysbench --test=memory --num-threads=4 run
 | Ubuntu  | |  |
 
 ### Cinebench
-| Cinebench 2024  | Single Core | Multicore | Ratio |
-| ------- | ----------------- | -------------------- | 
-| MacOS   | 10080107.3        | 9853.85              |     |
-| Windows |         |         |     |
+| Cinebench 2024 | Single Core | Multicore | Ratio |
+| -------------- | ----------- | --------- | ----- |
+| MacOS          | 72          | 570       | 7.89x | 
+| Windows        |             |           |       |   
 
 ## Graphic Benchmarks
 
