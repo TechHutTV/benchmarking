@@ -33,6 +33,12 @@ sysbench --test=memory --num-threads=4 run
 | Windows |         |         |
 | Ubuntu  | |  |
 
+### Cinebench
+| Cinebench 2024  | Single Core | Multicore | Ratio |
+| ------- | ----------------- | -------------------- | 
+| MacOS   | 10080107.3        | 9853.85              |     |
+| Windows |         |         |     |
+
 ## Graphic Benchmarks
 
 | Geekbench GPU | Metal      | Vulkan     | OpenCL     | 
