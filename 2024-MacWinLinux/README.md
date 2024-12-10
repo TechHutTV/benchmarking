@@ -57,6 +57,6 @@ Valley Benchmark (full resolution medium)
 
 | WebXPRT 4        | Firefox | Edge    | Safari   |
 | ---------------- | ------- | ------- | -------- |
-| MacOS            | 199     |         | 197      |
+| MacOS            | 199     | 210     | 197      |
 | Windows          |         |         |          |
 | Ubuntu           | 214     | 198     |          |
