@@ -43,9 +43,9 @@ sysbench --test=memory --num-threads=4 run
 
 Valley Benchmark (full resolution medium)
 
-| memory  | operations/second | transfer speed MiB/s | 
-| ------- | ----------------- | -------------------- | 
-| MacOS   | 3542        | 9853.85              |
+| memory  | Score | FPS | 
+| ------- | ---- | ----- | 
+| MacOS   | 3542 | 84.7  |
 | Windows |         |         |
 | Ubuntu  | |  |
 
