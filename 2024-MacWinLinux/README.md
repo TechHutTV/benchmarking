@@ -23,17 +23,21 @@ sysbench --test=fileio --file-total-size=128G --file-test-mode=rndrw --max-time=
 sysbench --test=fileio --file-total-size=128G cleanup 
 ```
 
-| fileio      | Total transferred | Transfer speed | Requests/sec |
-| ----------- | ------- | ------- | -------- |
-| MacOS       |   |    |   |
-| Windows     |         |         |          |
-| Ubuntu      |  |  |          |
+| fileio      | read MiB/s | written MiB/s | 
+| ----------- | ------- | ------- |
+| MacOS       | 40.04   | 26.69   |
+| Windows     |         |         |
+| Ubuntu      |  |  |    
 
-| memory | Firefox | Edge    | Safari   |
-| ------ | ------- | ------- | -------- |
-| MacOS            |  |  |  |
-| Windows          |         |         |          |
-| Ubuntu           | |  |          |
+```bash
+sysbench --test=memory --num-threads=4 run
+```
+
+| memory  | operations/second | transfer speed MiB/s | 
+| ------- | ----------------- | -------------------- | 
+| MacOS   | 10080107.3        | 9853.85              |
+| Windows |         |         |
+| Ubuntu  | |  |
 
 ## Browser Benchmarks 
 
