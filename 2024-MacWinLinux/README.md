@@ -1,4 +1,4 @@
-## CPU Benchmarking
+## General Benchmarking
 
 ### Geekbench 6
 
@@ -13,6 +13,27 @@
 | MacOS         | [37933](https://browser.geekbench.com/v6/compute/3289995) |            | [24114](https://browser.geekbench.com/v6/compute/3289934) |
 | Windows       |            |            |            |
 | Ubuntu        |            | [46962](https://browser.geekbench.com/v6/compute/3292510) |            |
+
+### Sysbench
+[source](https://wiki.gentoo.org/wiki/Sysbench)
+
+```bash
+sysbench --test=fileio --file-total-size=128G prepare
+sysbench --test=fileio --file-total-size=128G --file-test-mode=rndrw --max-time=300 --max-requests=0 run
+sysbench --test=fileio --file-total-size=128G cleanup 
+```
+
+| fileio      | Total transferred | Transfer speed | Requests/sec |
+| ----------- | ------- | ------- | -------- |
+| MacOS       |   |    |   |
+| Windows     |         |         |          |
+| Ubuntu      |  |  |          |
+
+| memory | Firefox | Edge    | Safari   |
+| ------ | ------- | ------- | -------- |
+| MacOS            |  |  |  |
+| Windows          |         |         |          |
+| Ubuntu           | |  |          |
 
 ## Browser Benchmarks 
 
