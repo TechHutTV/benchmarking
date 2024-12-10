@@ -18,7 +18,7 @@ sysbench --test=fileio --file-total-size=128G cleanup
 ```
 
 | fileio      | read MiB/s | written MiB/s | 
-| ----------- | ---------- | ----======--- |
+| ----------- | ---------- | ------ |
 | MacOS       | 40.04   | 26.69   |
 | Windows     |         |         |
 | Ubuntu      |     |  |    
