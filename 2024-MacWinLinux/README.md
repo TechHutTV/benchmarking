@@ -28,6 +28,6 @@
 
 | WebXPRT 4        | Firefox | Edge    | Safari   |
 | ---------------- | ------- | ------- | -------- |
-| MacOS            |         |         |          |
+| MacOS            |         |         | 197      |
 | Windows          |         |         |          |
 | Ubuntu           | 214     | 198     |          |
