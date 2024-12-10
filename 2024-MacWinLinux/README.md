@@ -8,7 +8,7 @@
 | Windows                                                |             |            |
 | [Ubuntu](https://browser.geekbench.com/v6/cpu/9340751) | 1629        | 7252       |
 
-| Geekbench GPU | Metal      | Vulkin     | OpenCL     | 
+| Geekbench GPU | Metal      | Vulkan     | OpenCL     | 
 | ------------- | ---------- | ---------- | --------------------------------------------------------- |
 | MacOS         | [37933](https://browser.geekbench.com/v6/compute/3289995) |            | [24114](https://browser.geekbench.com/v6/compute/3289934) |
 | Windows       |            |            |            |
