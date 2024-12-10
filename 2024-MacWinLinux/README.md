@@ -49,6 +49,6 @@ sysbench --test=fileio --file-total-size=128G cleanup
 
 | WebXPRT 4        | Firefox | Edge    | Safari   |
 | ---------------- | ------- | ------- | -------- |
-| MacOS            |         |         | 197      |
+| MacOS            | 199     |         | 197      |
 | Windows          |         |         |          |
 | Ubuntu           | 214     | 198     |          |
