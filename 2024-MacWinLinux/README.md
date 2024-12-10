@@ -33,6 +33,12 @@ sysbench --test=memory --num-threads=4 run
 | Windows |         |         |
 | Ubuntu  | |  |
 
+### Novabench
+| Cinebench 2024 | CPU Score | GPU Score | Memory Score | Storage Score |
+| -------------- | --------- | --------- | ------------ | ------------- | 
+| MacOS          | 780       | 225       | 267          | 280           | 
+| Windows        |           |           |              |               | 
+
 ### Cinebench
 | Cinebench 2024 | Single Core | Multicore | Ratio |
 | -------------- | ----------- | --------- | ----- |
@@ -52,8 +58,8 @@ Valley Benchmark (full resolution medium)
 | memory  | Score | FPS | 
 | ------- | ---- | ----- | 
 | MacOS   | 3542 | 84.7  |
-| Windows |         |         |
-| Ubuntu  | |  |
+| Windows |      |       |
+| Ubuntu  |      |       |
 
 
 ## Browser Benchmarks 
