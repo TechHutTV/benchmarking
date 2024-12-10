@@ -54,13 +54,13 @@ sysbench --test=memory --num-threads=4 run
 | Windows       |            |            |            |
 | Ubuntu        |            | [46962](https://browser.geekbench.com/v6/compute/3292510) |            |
 
-Valley Benchmark (full resolution medium)
+Valley Benchmark (1080p high opengl) 
 
 | memory  | Score | FPS | 
 | ------- | ---- | ----- | 
 | MacOS   | 3542 | 84.7  |
 | Windows |      |       |
-| Ubuntu  |      |       |
+| Ubuntu  | 3137 | 75.0  |
 
 
 ## Browser Benchmarks 
@@ -79,4 +79,4 @@ Valley Benchmark (full resolution medium)
 | ---------------- | ------- | ------- | -------- |
 | MacOS            | 199     | 210     | 197      |
 | Windows          |         |         |          |
-| Ubuntu           | 214     | 198     |          |
+| Ubuntu           | 215     | 198     |          |
