@@ -1,4 +1,4 @@
-## General Benchmarking
+## General Benchmarks
 
 ### Geekbench 6
 
@@ -7,12 +7,6 @@
 | [MacOS](https://browser.geekbench.com/v6/cpu/9332803)  | 1521        | 6820       |
 | Windows                                                |             |            |
 | [Ubuntu](https://browser.geekbench.com/v6/cpu/9340751) | 1629        | 7252       |
-
-| Geekbench GPU | Metal      | Vulkan     | OpenCL     | 
-| ------------- | ---------- | ---------- | --------------------------------------------------------- |
-| MacOS         | [37933](https://browser.geekbench.com/v6/compute/3289995) |            | [24114](https://browser.geekbench.com/v6/compute/3289934) |
-| Windows       |            |            |            |
-| Ubuntu        |            | [46962](https://browser.geekbench.com/v6/compute/3292510) |            |
 
 ### Sysbench
 [source](https://wiki.gentoo.org/wiki/Sysbench)
@@ -38,6 +32,16 @@ sysbench --test=memory --num-threads=4 run
 | MacOS   | 10080107.3        | 9853.85              |
 | Windows |         |         |
 | Ubuntu  | |  |
+
+## Graphic Benchmarks
+
+| Geekbench GPU | Metal      | Vulkan     | OpenCL     | 
+| ------------- | ---------- | ---------- | --------------------------------------------------------- |
+| MacOS         | [37933](https://browser.geekbench.com/v6/compute/3289995) |            | [24114](https://browser.geekbench.com/v6/compute/3289934) |
+| Windows       |            |            |            |
+| Ubuntu        |            | [46962](https://browser.geekbench.com/v6/compute/3292510) |            |
+
+Valley Benchmark (full resolution medium)
 
 ## Browser Benchmarks 
 
