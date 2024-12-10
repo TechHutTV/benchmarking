@@ -18,10 +18,10 @@ sysbench --test=fileio --file-total-size=128G cleanup
 ```
 
 | fileio      | read MiB/s | written MiB/s | 
-| ----------- | ------- | ------- |
+| ----------- | ---------- | ----======--- |
 | MacOS       | 40.04   | 26.69   |
 | Windows     |         |         |
-| Ubuntu      |  |  |    
+| Ubuntu      |     |  |    
 
 ```bash
 sysbench --test=memory --num-threads=4 run
@@ -30,14 +30,15 @@ sysbench --test=memory --num-threads=4 run
 | memory  | operations/second | transfer speed MiB/s | 
 | ------- | ----------------- | -------------------- | 
 | MacOS   | 10080107.3        | 9853.85              |
-| Windows |         |         |
-| Ubuntu  | |  |
+| Windows |               |         |
+| Ubuntu  | 10911563.3        | 10655.83             |
 
 ### Novabench
 | Cinebench 2024 | CPU Score | GPU Score | Memory Score | Storage Score |
 | -------------- | --------- | --------- | ------------ | ------------- | 
 | MacOS          | 780       | 225       | 267          | 280           | 
 | Windows        |           |           |              |               | 
+| Windows        | 1180      | 200       | 423          | 256           | 
 
 ### Cinebench
 | Cinebench 2024 | Single Core | Multicore | Ratio |
