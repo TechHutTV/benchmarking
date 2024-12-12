@@ -12,18 +12,6 @@
 [source](https://wiki.gentoo.org/wiki/Sysbench)
 
 ```bash
-sysbench --test=fileio --file-total-size=128G prepare
-sysbench --test=fileio --file-total-size=128G --file-test-mode=rndrw --max-time=300 --max-requests=0 run
-sysbench --test=fileio --file-total-size=128G cleanup 
-```
-
-| fileio      | read MiB/s | written MiB/s | 
-| ----------- | ---------- | ------ |
-| MacOS       | 40.04   | 26.69   |
-| Windows     |         |         |
-| Ubuntu      |     |  |    
-
-```bash
 sysbench --test=memory --num-threads=4 run
 ```
 
