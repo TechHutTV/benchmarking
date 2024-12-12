@@ -30,8 +30,8 @@ sysbench --test=memory --num-threads=4 run
 ### Cinebench
 | Cinebench 2024 | Single Core | Multicore | Ratio |
 | -------------- | ----------- | --------- | ----- |
-| MacOS          | 72          | 570       | 7.89x | 
-| Windows        |             |           |       |   
+| MacOS          |             |           |       |
+| Windows        | 1145        | 7870      | 6.87  |
 
 ## Graphic Benchmarks
 
@@ -43,11 +43,12 @@ sysbench --test=memory --num-threads=4 run
 
 Valley Benchmark (1080p high opengl) 
 
-| Valley  | Score | FPS | 
-| ------- | ---- | ----- | 
-| MacOS   | 3542 | 84.7  |
-| Windows |      |       |
-| Ubuntu  | 3137 | 75.0  |
+| Valley               | Score | FPS   | 
+| -------------------- | ----- | ----- | 
+| MacOS (OpenGL)       | 3542  | 84.7  |
+| Windows (OpenGL)     | 3162  | 75.6  |
+| Windows (DirectX 11) | 3881  | 92.8  |
+| Ubuntu (OpenGL)      | 3137  | 75.0  |
 
 
 ## Browser Benchmarks 
