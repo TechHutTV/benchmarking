@@ -2,11 +2,11 @@
 
 ### Geekbench 6
 
-| Geekbench CPU                                          | Single-core | Milti-core |
-| ------------------------------------------------------ | ----------- | ---------- |
-| [MacOS](https://browser.geekbench.com/v6/cpu/9332803)  | 1521        | 6820       |
-| Windows                                                |             |            |
-| [Ubuntu](https://browser.geekbench.com/v6/cpu/9340751) | 1629        | 7252       |
+| Geekbench CPU                                           | Single-core | Milti-core |
+| ------------------------------------------------------- | ----------- | ---------- |
+| [MacOS](https://browser.geekbench.com/v6/cpu/9332803)   | 1521        | 6820       |
+| [Windows](https://browser.geekbench.com/v6/cpu/9390869) | 1530        | 6284       |
+| [Ubuntu](https://browser.geekbench.com/v6/cpu/9340751)  | 1629        | 7252       |
 
 ### Sysbench
 [source](https://wiki.gentoo.org/wiki/Sysbench)
