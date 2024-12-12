@@ -39,12 +39,12 @@ sysbench --test=memory --num-threads=4 run
 | Geekbench GPU | Metal      | Vulkan     | OpenCL     | 
 | ------------- | ---------- | ---------- | --------------------------------------------------------- |
 | MacOS         | [37933](https://browser.geekbench.com/v6/compute/3289995) |            | [24114](https://browser.geekbench.com/v6/compute/3289934) |
-| Windows       |            |            |            |
+| Windows       |            | [36842](https://browser.geekbench.com/v6/compute/3308764)           | [32920](https://browser.geekbench.com/v6/compute/3308755)           |
 | Ubuntu        |            | [46962](https://browser.geekbench.com/v6/compute/3292510) |            |
 
 Valley Benchmark (1080p high opengl) 
 
-| memory  | Score | FPS | 
+| Valley  | Score | FPS | 
 | ------- | ---- | ----- | 
 | MacOS   | 3542 | 84.7  |
 | Windows |      |       |
