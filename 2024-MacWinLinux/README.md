@@ -58,7 +58,7 @@ Valley Benchmark (1080p high opengl)
 | Basemark Web 3.0 | Firefox | Edge    | Safari   |
 | ---------------- | ------- | ------- | -------- |
 | MacOS            | 859.59  | 705.9   | 762.87   |
-| Windows          |         |         |          |
+| Windows          | 1093.43 | 1096.69 |          |
 | Ubuntu           | 1346.65 | 1329.66 |          |
 
 ### WebXPRT 4
@@ -66,5 +66,5 @@ Valley Benchmark (1080p high opengl)
 | WebXPRT 4        | Firefox | Edge    | Safari   |
 | ---------------- | ------- | ------- | -------- |
 | MacOS            | 199     | 210     | 197      |
-| Windows          |         |         |          |
+| Windows          |         | 142     |          |
 | Ubuntu           | 215     | 198     |          |
