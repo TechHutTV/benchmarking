@@ -8,6 +8,13 @@
 | [Windows](https://browser.geekbench.com/v6/cpu/9390869) | 1530        | 6284       |
 | [Ubuntu](https://browser.geekbench.com/v6/cpu/9340751)  | 1629        | 7252       |
 
+### Novabench
+| Cinebench 2024 | CPU Score | GPU Score | Memory Score | Storage Score |
+| -------------- | --------- | --------- | ------------ | ------------- | 
+| MacOS          | 780       | 225       | 267          | 280           | 
+| Windows        | 1470      | 210       | 274          | 270           | 
+| Ubuntu         | 1180      | 200       | 423          | 256           | 
+
 ### Sysbench
 [source](https://wiki.gentoo.org/wiki/Sysbench)
 
@@ -18,15 +25,7 @@ sysbench --test=memory --num-threads=4 run
 | memory  | operations/second | transfer speed MiB/s | 
 | ------- | ----------------- | -------------------- | 
 | MacOS   | 10080107.3        | 9853.85              |
-| Windows |               |         |
 | Ubuntu  | 10911563.3        | 10655.83             |
-
-### Novabench
-| Cinebench 2024 | CPU Score | GPU Score | Memory Score | Storage Score |
-| -------------- | --------- | --------- | ------------ | ------------- | 
-| MacOS          | 780       | 225       | 267          | 280           | 
-| Windows        |           |           |              |               | 
-| Ubuntu         | 1180      | 200       | 423          | 256           | 
 
 ### Cinebench
 | Cinebench 2024 | Single Core | Multicore | Ratio |
@@ -38,8 +37,8 @@ sysbench --test=memory --num-threads=4 run
 
 | Geekbench GPU | Metal      | Vulkan     | OpenCL     | 
 | ------------- | ---------- | ---------- | --------------------------------------------------------- |
-| MacOS         | [37933](https://browser.geekbench.com/v6/compute/3289995) |            | [24114](https://browser.geekbench.com/v6/compute/3289934) |
-| Windows       |            | [36842](https://browser.geekbench.com/v6/compute/3308764)           | [32920](https://browser.geekbench.com/v6/compute/3308755)           |
+| MacOS         | [37933](https://browser.geekbench.com/v6/compute/3289995)              |            | [24114](https://browser.geekbench.com/v6/compute/3289934) |
+| Windows       |            | [36842](https://browser.geekbench.com/v6/compute/3308764)              | [32920](https://browser.geekbench.com/v6/compute/3308755) |
 | Ubuntu        |            | [46962](https://browser.geekbench.com/v6/compute/3292510) |            |
 
 Valley Benchmark (1080p high opengl) 
