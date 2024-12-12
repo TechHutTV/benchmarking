@@ -26,7 +26,7 @@ sysbench --test=memory --num-threads=4 run
 | -------------- | --------- | --------- | ------------ | ------------- | 
 | MacOS          | 780       | 225       | 267          | 280           | 
 | Windows        |           |           |              |               | 
-| Windows        | 1180      | 200       | 423          | 256           | 
+| Ubuntu         | 1180      | 200       | 423          | 256           | 
 
 ### Cinebench
 | Cinebench 2024 | Single Core | Multicore | Ratio |
