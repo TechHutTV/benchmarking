@@ -1,6 +1,19 @@
 ## General Benchmarks
 
+MacBook Pro Retina 16-inch (2019) - Core i9 - 16GB - SSD 1000GB
+
+Processor
+Intel Core i9-9880H 2.3Ghz
+
+Graphic Card Type
+AMD Radeon Pro 5500M
+
+Resolution
+3072 x 1920
+
 ### Geekbench 6
+
+Geekbench is a common tool for testing the performance of devices like phones, laptops, and tablets. It can provide insights into how a device will perform with professional applications that require high levels of processing power. It measures both single-core and multi-core power, and aggregates data from thousands of users to create an average score.
 
 | Geekbench CPU                                           | Single-core | Milti-core |
 | ------------------------------------------------------- | ----------- | ---------- |
@@ -9,6 +22,9 @@
 | [Ubuntu](https://browser.geekbench.com/v6/cpu/9340751)  | 1629        | 7252       |
 
 ### Novabench
+
+Novabench's tests are designed to evaluate modern API, instruction set, and workload performance. The results are comparable across operating systems and architectures.
+
 | Cinebench 2024 | CPU Score | GPU Score | Memory Score | Storage Score |
 | -------------- | --------- | --------- | ------------ | ------------- | 
 | MacOS          | 780       | 225       | 267          | 280           | 
@@ -16,7 +32,8 @@
 | Ubuntu         | 1180      | 200       | 423          | 256           | 
 
 ### Sysbench
-[source](https://wiki.gentoo.org/wiki/Sysbench)
+
+When using the memory test in sysbench, the benchmark application will allocate a memory buffer and then read or write from it, each time for the size of a pointer. [source](https://wiki.gentoo.org/wiki/Sysbench)
 
 ```bash
 sysbench --test=memory --num-threads=4 run
@@ -30,7 +47,7 @@ sysbench --test=memory --num-threads=4 run
 ### Cinebench
 | Cinebench 2024 | Single Core | Multicore | Ratio |
 | -------------- | ----------- | --------- | ----- |
-| MacOS          | 1150        | 9041      |       |
+| MacOS          | 1150        | 9041      | 7.86  |
 | Windows        | 1145        | 7870      | 6.87  |
 
 ## Graphic Benchmarks
