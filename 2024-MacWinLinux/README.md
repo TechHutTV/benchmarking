@@ -30,7 +30,7 @@ sysbench --test=memory --num-threads=4 run
 ### Cinebench
 | Cinebench 2024 | Single Core | Multicore | Ratio |
 | -------------- | ----------- | --------- | ----- |
-| MacOS          |             |           |       |
+| MacOS          | 1150        | 9041      |       |
 | Windows        | 1145        | 7870      | 6.87  |
 
 ## Graphic Benchmarks
@@ -66,5 +66,5 @@ Valley Benchmark (1080p high opengl)
 | WebXPRT 4        | Firefox | Edge    | Safari   |
 | ---------------- | ------- | ------- | -------- |
 | MacOS            | 199     | 210     | 197      |
-| Windows          | 190     | 142     |          |
+| Windows          | 190     | 185     |          |
 | Ubuntu           | 215     | 198     |          |
