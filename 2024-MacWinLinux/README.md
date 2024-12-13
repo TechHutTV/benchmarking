@@ -66,5 +66,5 @@ Valley Benchmark (1080p high opengl)
 | WebXPRT 4        | Firefox | Edge    | Safari   |
 | ---------------- | ------- | ------- | -------- |
 | MacOS            | 199     | 210     | 197      |
-| Windows          |         | 142     |          |
+| Windows          | 190     | 142     |          |
 | Ubuntu           | 215     | 198     |          |
