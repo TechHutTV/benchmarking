@@ -11,6 +11,26 @@ AMD Radeon Pro 5500M
 Resolution
 3072 x 1920
 
+### Boot Speed Test
+
+From button press with autologin. Time stopped when desktop GUI fully loads.
+
+| Battery Life | Boot | Reboot |
+| ------------ | ---- | ------ |
+| MacOS        |      |        |
+| Windows      |      |        |
+| Ubuntu       |      |        |
+
+### Battery Life
+
+Full brightness, medium volume, with Twitch stream running at 1080p
+
+| Battery Life | 75%  | 50%  | 25%  | Dead |
+| ------------ | ---- | ---- | ---- | ---- | 
+| MacOS        |      |      |      |      | 
+| Windows      |      |      |      |      | 
+| Ubuntu       |      |      |      |      | 
+
 ### Geekbench 6
 
 Geekbench is a common tool for testing the performance of devices like phones, laptops, and tablets. It can provide insights into how a device will perform with professional applications that require high levels of processing power. It measures both single-core and multi-core power, and aggregates data from thousands of users to create an average score.
