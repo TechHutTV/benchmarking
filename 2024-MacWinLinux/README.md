@@ -41,15 +41,19 @@ Geekbench is a common tool for testing the performance of devices like phones, l
 | [Windows](https://browser.geekbench.com/v6/cpu/9390869) | 1530        | 6284       |
 | [Ubuntu](https://browser.geekbench.com/v6/cpu/9340751)  | 1629        | 7252       |
 
+![](https://github.com/TechHutTV/benchmarking/blob/main/2024-MacWinLinux/images/Geekbench%206%20CPU.png)
+
 ### Novabench
 
 Novabench's tests are designed to evaluate modern API, instruction set, and workload performance. The results are comparable across operating systems and architectures.
 
-| Cinebench 2024 | CPU Score | GPU Score | Memory Score | Storage Score |
+| Novabench      | CPU Score | GPU Score | Memory Score | Storage Score |
 | -------------- | --------- | --------- | ------------ | ------------- | 
 | MacOS          | 780       | 225       | 267          | 280           | 
 | Windows        | 1470      | 210       | 274          | 270           | 
 | Ubuntu         | 1180      | 200       | 423          | 256           | 
+
+![](https://github.com/TechHutTV/benchmarking/blob/main/2024-MacWinLinux/images/NovaBench.png)
 
 ### Sysbench
 
@@ -65,12 +69,16 @@ sysbench --test=memory --num-threads=4 run
 | Ubuntu  | 10911563.3        | 10655.83             |
 
 ### Cinebench
-| Cinebench 2024 | Single Core | Multicore | Ratio |
+| Cinebench R23  | Single Core | Multicore | Ratio |
 | -------------- | ----------- | --------- | ----- |
 | MacOS          | 1150        | 9041      | 7.86  |
 | Windows        | 1145        | 7870      | 6.87  |
 
+![](https://github.com/TechHutTV/benchmarking/blob/main/2024-MacWinLinux/images/Cinebench%20R23.png)
+
 ## Graphic Benchmarks
+
+### Geekbench GPU
 
 | Geekbench GPU | Metal      | Vulkan     | OpenCL     | 
 | ------------- | ---------- | ---------- | --------------------------------------------------------- |
@@ -78,7 +86,10 @@ sysbench --test=memory --num-threads=4 run
 | Windows       |            | [36842](https://browser.geekbench.com/v6/compute/3308764)              | [32920](https://browser.geekbench.com/v6/compute/3308755) |
 | Ubuntu        |            | [46962](https://browser.geekbench.com/v6/compute/3292510) |            |
 
-Valley Benchmark (1080p high opengl) 
+![](https://github.com/TechHutTV/benchmarking/blob/main/2024-MacWinLinux/images/Geekbench%206%20GPU.png)
+
+
+### Valley Benchmark (1080p high) 
 
 | Valley               | Score | FPS   | 
 | -------------------- | ----- | ----- | 
@@ -87,6 +98,7 @@ Valley Benchmark (1080p high opengl)
 | Windows (DirectX 11) | 3881  | 92.8  |
 | Ubuntu (OpenGL)      | 3137  | 75.0  |
 
+![](https://github.com/TechHutTV/benchmarking/blob/main/2024-MacWinLinux/images/Valley%20Benchmark.png)
 
 ## Browser Benchmarks 
 
@@ -98,6 +110,8 @@ Valley Benchmark (1080p high opengl)
 | Windows          | 1093.43 | 1096.69 |          |
 | Ubuntu           | 1346.65 | 1329.66 |          |
 
+![](https://github.com/TechHutTV/benchmarking/blob/main/2024-MacWinLinux/images/Basemark%20Web%203.0.png)
+
 ### WebXPRT 4
 
 | WebXPRT 4        | Firefox | Edge    | Safari   |
@@ -105,3 +119,5 @@ Valley Benchmark (1080p high opengl)
 | MacOS            | 199     | 210     | 197      |
 | Windows          | 190     | 185     |          |
 | Ubuntu           | 215     | 198     |          |
+
+![](https://github.com/TechHutTV/benchmarking/blob/main/2024-MacWinLinux/images/WebXPRT%204.png)
