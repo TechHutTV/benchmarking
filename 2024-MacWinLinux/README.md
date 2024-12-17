@@ -37,7 +37,7 @@ Transcoding a 4k.mov to 1080p.mp4
 
 | Video Transcode | FPS  |
 | --------------- | ---- |
-| MacOS           |      |
+| MacOS           | 70   |
 | Windows         | 55   |
 | Ubuntu          |      |
 
