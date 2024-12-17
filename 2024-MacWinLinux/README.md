@@ -39,7 +39,7 @@ Transcoding a 4k.mov to 1080p.mp4
 | --------------- | ---- |
 | MacOS           | 70   |
 | Windows         | 55   |
-| Ubuntu          |      |
+| Ubuntu          | 30   |
 
 ### Geekbench 6
 
