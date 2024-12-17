@@ -25,11 +25,11 @@ From button press with autologin. Time stopped when desktop GUI fully loads.
 
 Full brightness, medium volume, with Twitch stream running at 1080p. Time listed is in minutes. Windows power mode was set to better performace on battery.
 
-| Battery Life | 75%  | 50%  | 40%  | 30%  | 20%  | 10%  | 5%   |
-| ------------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| MacOS        | 56   | 108  | 126  | 146  | 165  | 183  | 191  |
-| Windows      |      |      |      |      |      |      |      |
-| Ubuntu       |      |      |      |      |      |      |      |
+| Battery Life | 50%  | 40%  | 30%  | 20%  | 10%  | 5%   |
+| ------------ | ---- | ---- | ---- | ---- | ---- | ---- |
+| MacOS        | 180  |      |      |      |      |      |
+| Windows      | 108  | 126  | 146  | 165  | 183  | 191  |
+| Ubuntu       |      |      |      |      |      |      |
 
 ### Geekbench 6
 
