@@ -31,6 +31,16 @@ Full brightness, medium volume, with Twitch stream running at 1080p. Time listed
 | Windows      | 108  | 126  | 146  | 165  | 183  | 191  |
 | Ubuntu       |      |      |      |      |      |      |
 
+### Handbrake
+
+Transcoding a 4k.mov to 1080p.mp4
+
+| Video Transcode | FPS  |
+| --------------- | ---- |
+| MacOS           |      |
+| Windows         | 55   |
+| Ubuntu          |      |
+
 ### Geekbench 6
 
 Geekbench is a common tool for testing the performance of devices like phones, laptops, and tablets. It can provide insights into how a device will perform with professional applications that require high levels of processing power. It measures both single-core and multi-core power, and aggregates data from thousands of users to create an average score.
