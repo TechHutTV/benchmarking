@@ -27,7 +27,7 @@ Full brightness, medium volume, with Twitch stream running at 1080p. Time listed
 
 | Battery Life | 50%  | 40%  | 30%  | 20%  | 10%  | 5%   |
 | ------------ | ---- | ---- | ---- | ---- | ---- | ---- |
-| MacOS        | 180  | 196  |      |      |      |      |
+| MacOS        | 180  | 196  | 215  | 230  | 245  | 255  |
 | Windows      | 108  | 126  | 146  | 165  | 183  | 191  |
 | Ubuntu       | 51   | 62   | 73   | 85   | 93   | 97   |
 
