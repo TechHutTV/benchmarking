@@ -29,7 +29,7 @@ Full brightness, medium volume, with Twitch stream running at 1080p. Time listed
 | ------------ | ---- | ---- | ---- | ---- | ---- | ---- |
 | MacOS        | 180  | 196  |      |      |      |      |
 | Windows      | 108  | 126  | 146  | 165  | 183  | 191  |
-| Ubuntu       |      |      |      |      |      |      |
+| Ubuntu       | 51   | 62   | 73   | 85   | 93   | 97   |
 
 ### Handbrake
 
