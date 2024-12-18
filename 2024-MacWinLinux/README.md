@@ -15,11 +15,11 @@ Resolution
 
 From button press with autologin. Time stopped when desktop GUI fully loads.
 
-| Battery Life | Boot | Reboot |
-| ------------ | ---- | ------ |
-| MacOS        |      |        |
-| Windows      |      |        |
-| Ubuntu       |      |        |
+| Battery Life | Boot  | Reboot |
+| ------------ | ----- | ------ |
+| MacOS        | 29:40 | 36:28  |
+| Windows      | 23:39 | 31:40  |
+| Ubuntu       | 25:04 | 29:45  |
 
 ### Battery Life
 
@@ -39,7 +39,7 @@ Transcoding a 4k.mov to 1080p.mp4
 | --------------- | ---- |
 | MacOS           | 70   |
 | Windows         | 55   |
-| Ubuntu          | 7:34   |
+| Ubuntu          | 7:34 |
 
 ### Geekbench 6
 
